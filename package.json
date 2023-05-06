@@ -1,6 +1,7 @@
 {
   "name": "rocketfy-drag-and-drop",
   "version": "0.1.0",
+  "hamepage": "github-pages/",
   "private": true,
   "dependencies": {
     "inner": "^0.2.0",
