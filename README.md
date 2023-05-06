@@ -1,70 +1,148 @@
-# Getting Started with Create React App
+<h1 align="center">
+  <img src=".github/logo-rocketfy.png" alt="Logo Rocketfy" width="200px" align="center" />
+  
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-licença">Licença</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-autor">Autor</a>
+</div>
 
-## Available Scripts
+<br>
 
-In the project directory, you can run:
+<p align="center">
+  <img  src="https://img.shields.io/static/v1?label=license&message=MIT&color=15C3D6&labelColor=000000" alt="License">
+  <img src="https://img.shields.io/github/forks/Wanderson-A-Timoteo/nlw-heat-origin?label=forks&message=MIT&color=15C3D6&labelColor=000000" alt="Forks">
+  <img src="https://img.shields.io/github/stars/Wanderson-A-Timoteo/nlw-heat-origin?label=stars&message=MIT&color=15C3D6&labelColor=000000" alt="Stars">
+</p>
 
-### `npm start`
+<br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 💻 Projeto
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Este projeto consiste em um clone do Pipefy, com ele podemos gerenciar nossos projetos e automatizar nossos fluxos de trabalho.
+<br>
+Neste projeto foi utilizado o conceito drag and drop (Arastar e soltar) para criar cada card de tarefa e podermos movimentá-lo pelas listas.
+<br>
 
-### `npm test`
+### Dashboard Gif
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<p align="center">
+    <img alt="Imagem do Dashboard Animado em Gif" title="Imagem do Dashboard Animado em Gif" 
+    src=".github/rocketfy.gif" />
+</p>
+<br>
 
-### `npm run build`
+### Dashboard
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<p align="center">
+    <img alt="Imagem do Dashboard" title="Imagem do Dashboard" 
+    src=".github/rocketfy.png" />
+</p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<br>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🚀 Tecnologias
 
-### `npm run eject`
+Esse projeto foi desenvolvido com as seguintes tecnologias e ferramentas:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<div align="center">
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="100" height="100" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" width="100" height="100" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" width="100" height="100" />          
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="100" height="100" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="100" height="100" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="100" height="100" />
+  <img src="https://img.icons8.com/color/48/null/drag-and-drop.png" title="React-DnD Drag And Drop " width="100" height="100" />
+</div>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<br>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🔥 Executar Aplicação
 
-## Learn More
+### 🎇 Executando Localmente a Aplicação
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Caso você deseja executar o projeto na sua máquina local, você precisará instalar o Node.js 16.\* em sua máquina. Após a instalação, basta seguir os passos abaixo:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 🌀 Começando...
 
-### Code Splitting
+Para começar, você deve simplesmente clonar o repositório do projeto na sua máquina.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Navegue até o local onde você clonou o projeto, exemplo:
 
-### Analyzing the Bundle Size
+```sh
+C:\Users\NomeDoComputador\Documents\CloneDoProjeto
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+#### ❗️ Instalando as Dependências (via Windows):
 
-### Making a Progressive Web App
+Bom, agora que clonou o projeto **(dentro da pasta `rocketfy-drag-and-drop` do projeto clonado abra um terminal)**. Agora basta digitar no cmd a seguinte instrução:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```sh
+npm install
+```
 
-### Advanced Configuration
+ou
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```sh
+yarn install
+```
 
-### Deployment
+Ao digitar a instrução acima, automaticamente ele irá baixar todas as dependências listadas e definidas no arquivo package.json:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### 🛰️ Executando o projeto
 
-### `npm run build` fails to minify
+Após baixar todas as dependências é só digitar no terminal a instrução abaixo:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```sh
+npm run start
+```
+
+ou
+
+```sh
+yarn start
+```
+
+Pronto! dessa forma o projeto `rocketfy-drag-and-drop` estará rodando localmente em sua maquina. Acesse no navegador o endereço abaixo:
+
+```sh
+http://localhost:3000
+```
+
+<br>
+
+## 🚩 Tenho Dúvidas... O que fazer?
+
+Caso tenha dúvidas sobre o código do projeto, sintam-se a vontade em abrir uma **[ISSUE AQUI](https://github.com/Wanderson-A-Timoteo/rocketfy-drag-and-drop/issues)**. Assim que possível, responderei todas as dúvidas!
+
+<br>
+
+## 💡 Licença
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](.github/LICENSE.md) para mais detalhes.
+
+<br>
+
+## 🎆 Autor
+
+Feito com ♥ by
+
+[<img src="https://avatars.githubusercontent.com/u/40473246?v=4" width=115><br><sub>Wanderson A. Timóteo</sub>](https://www.wandersontimoteo.ga/)
+
+<br>
+
+## 🤝 Agradecimentos
+
+<p align="center">
+    <img alt="Rocketseat" title="Rocketseat" 
+    src=".github/rocketseat.svg" />
+</p>
+<br>
+
+Projeto desenvolvido assistindo a vídeo aula no canal da [Rocketseat](https://www.youtube.com/watch?v=awRtgpRsdTQ) no YouTube.
+
+Agradecimento ao [Diego Fernandes](https://www.instagram.com/dieegosf/) por compartilhar conteúdo relevante e com qualidade de ensino.
