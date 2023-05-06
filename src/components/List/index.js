@@ -3,14 +3,16 @@ import { MdAdd } from "react-icons/md";
 import Card from "../Card/index";
 import { Container } from "./styles";
 
-function List() {
+function List( { data } ) {
   return (
     <Container>
       <header>
-        <h2>Tarefas</h2>
-        <button type='button'>
-          <MdAdd size={24} color='#FFF' />
-        </button>
+        <h2> { data.title } </h2>
+        { data.creatable && (
+          <button type='button'>
+            <MdAdd size={24} color='#FFF' />
+          </button>
+        )}
       </header>
 
       <ul>
