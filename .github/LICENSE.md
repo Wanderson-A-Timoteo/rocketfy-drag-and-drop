@@ -2,7 +2,7 @@ Português - Brasil
 
 Licença MIT
 
-Copyright (c) 2022 Wanderson A. Timóteo
+Copyright (c) 2023 Wanderson A. Timóteo
 
 É concedida permissão, gratuitamente, a qualquer pessoa que obtenha uma cópia deste software e dos arquivos de documentação associados (o "Software"), para lidar com o Software sem restrições, incluindo, sem limitação, os direitos de usar, copiar, modificar, mesclar , publicar, distribuir, sublicenciar e/ou vender cópias do Software e permitir que as pessoas a quem o Software é fornecido o façam, sujeito às seguintes condições:
 
@@ -16,11 +16,11 @@ O SOFTWARE É FORNECIDO "COMO ESTÁ", SEM GARANTIA DE QUALQUER TIPO, EXPRESSA OU
 
 <br>
 
-English 
+English
 
 MIT License
 
-Copyright (c) 2022 Wanderson A. Timóteo
+Copyright (c) 2023 Wanderson A. Timóteo
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
