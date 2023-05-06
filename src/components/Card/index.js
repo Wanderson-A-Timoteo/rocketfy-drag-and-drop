@@ -18,7 +18,8 @@ function Card( { data, index, listIndex } ) {
     accept: 'CARD',
     hover(item, monitor) {
       const draggedListIndex = item.listIndex;
-      // const targetListIndex = listIndex;
+      const targetListIndex = listIndex;
+
       const draggedIndex = item.index;
       const targetIndex = index
 
@@ -40,7 +41,10 @@ function Card( { data, index, listIndex } ) {
         return;
       }
 
-      move(draggedListIndex, draggedIndex, targetIndex);
+      move(draggedListIndex, targetListIndex, draggedIndex, targetIndex);
+
+      item.index = targetIndex;
+      item.listIndex = targetListIndex;
     }
   })
 
