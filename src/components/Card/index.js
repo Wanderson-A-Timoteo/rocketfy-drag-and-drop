@@ -23,7 +23,7 @@ function Card( { data, index, listIndex } ) {
       const draggedIndex = item.index;
       const targetIndex = index
 
-      if(draggedIndex === targetIndex) {
+      if(draggedIndex === targetIndex && draggedListIndex === targetListIndex) {
         return;
       }
 
@@ -53,7 +53,6 @@ function Card( { data, index, listIndex } ) {
   return (
     <Container ref={ref} isDragging={isDragging} >
       <header>
-        <Label color="#7159C1" />
         { data.labels.map(label => <Label key={label} color={label} /> )}
       </header>
       <p> { data.content } </p>
