@@ -44,6 +44,15 @@ Neste projeto foi utilizado o conceito drag and drop (Arastar e soltar) para cri
 
 <br>
 
+### Dashboard Vídeo
+
+<p align="center">
+    <video src=".github/rocketfy.mp4" autoplay>
+      Desculpa, o seu navegador não suporta vídeos incorporados.
+    </video>
+</p>
+<br>
+
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias e ferramentas:
@@ -52,7 +61,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias e ferramentas:
 
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="100" height="100" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" width="100" height="100" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" width="100" height="100" />          
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" width="100" height="100" />
+  <img src="https://img.icons8.com/color/100/null/styled-components.png" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="100" height="100" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="100" height="100" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="100" height="100" />
